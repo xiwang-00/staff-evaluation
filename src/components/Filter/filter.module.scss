@@ -1,0 +1,118 @@
+.filter{
+    width: 363px;
+    height: 40px;
+    left: 539px;
+    top: 208px;
+    background: #F1F0EE;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.filter__button {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #81755C;
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.filter__activeButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+@media only screen and (max-width: 992px) {
+    .filter {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .filter {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 686px) {
+    .filter {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+   .filter{
+       width: 100%;
+       margin: 20px 0 0;
+   }
+   .filter__button{
+    font-size: 16px;
+}
+
+   .filter__activeButton{
+    font-style: 14px;
+       padding: 6px 30px;
+   }
+   
+    
+}
+@media only screen and (max-width: 435px) {
+
+    
+    
+    .filter__activeButton{
+        padding: 6px 8px;
+    }
+    
+     
+ }
+
+@media only screen and (max-width: 388px) {
+
+    .filter__button{
+        font-size: 14px;
+    }
+    .filter__activeButton{
+        font-size: 12px;
+    }
+    
+     
+ }
+ @media only screen and (max-width: 340px) {
+
+    .filter__button{
+        font-size: 12px;
+    }
+    .filter__activeButton{
+        font-size: 10px;
+    } 
+ }
+
+ @media only screen and (max-width: 310px) {
+
+    .filter__button{
+        font-size: 10px;
+    }
+    .filter__activeButton{
+        font-size: 10px;
+    } 
+ }

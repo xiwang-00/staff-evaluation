@@ -1,0 +1,50 @@
+.sectionEvaluation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 408px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    background: conic-gradient(from 100.56deg at 50% 50%, #FFD580 0deg, #FFE1A6 149.81deg, #FFF6D6 360deg);
+    border-radius: 100px;
+
+    &::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-image: url("../../assets/images/star-icon.svg");
+        background-repeat: no-repeat;
+    }
+
+}
+
+.sectionEvaluation__text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+@media only screen and (max-width:576px) {
+    .sectionEvaluation {
+        width: 90%;
+    }
+
+    .sectionEvaluation__text {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+}

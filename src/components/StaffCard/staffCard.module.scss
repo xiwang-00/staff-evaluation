@@ -1,0 +1,155 @@
+.staff__card {
+    display: block;
+    width: 31%;
+    background: #F9F9F9;
+    padding: 24px 32px 50px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: all ease 0.2s;
+
+    &:hover {
+        border: 2px solid #D2CDC2;
+        box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.staff__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    color: #000000;
+}
+
+.staff__text {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #81755C;
+}
+
+.staff__img {
+    position: absolute;
+    // width: 110px;
+    // height: 95px;
+    bottom: 0;
+    right: 12px;
+}
+
+@media only screen and (max-width: 992px) {
+    .staff__card {
+        width: 46%;
+    }
+    .staff__title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    
+    .staff__img {
+        position: absolute;
+        width: 110px;
+        height: 95px;
+        bottom: 0;
+        right: 12px;
+    }
+
+    .staff__card:nth-child(1) > img {
+        width: 140px;
+        height: 87px;
+    }
+
+    .staff__card:nth-child(2) > img {
+        width: 90px;
+        height: 95px;
+    }
+
+    .staff__card:nth-child(4) > img {
+        width: 120px;
+        height: 91px;
+    }
+
+    .staff__card:nth-child(5) > img {
+        width: 120px;
+        height: 95px;
+    }
+
+    .staff__card:nth-child(9) > img {
+        width: 100px;
+        height: 95px;
+    }
+
+    .staff__card:nth-child(10) > img {
+        width: 120px;
+        height: 95px;
+    }
+
+    .staff__card:nth-child(11) > img {
+        width: 89px;
+        height: 95px;
+    }
+   
+}
+
+@media only screen and (max-width: 650px) {
+
+    .staff__card{
+        width: 100%;
+    }
+
+    .staff__title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    
+    .staff__img {
+        position: absolute;
+        width: 110px;
+        height: 91px;
+        bottom: 0;
+        right: 12px;
+    }
+
+    .staff__card:nth-child(1) > img {
+        width: 119px;
+        height: 74px;
+    }
+
+    .staff__card:nth-child(2) > img {
+        width: 90px;
+        height: 95px;
+    }
+
+    .staff__card:nth-child(4) > img {
+        width: 115px;
+        height: 83px;
+    }
+
+    .staff__card:nth-child(5) > img {
+        width: 105px;
+        height: 82px;
+    }
+
+    .staff__card:nth-child(6) > img {
+        width: 90px;
+        height: 80px;
+    }
+
+    .staff__card:nth-child(9) > img {
+        width: 88px;
+        height: 102px;
+    }
+
+    .staff__card:nth-child(11) > img {
+        width: 89px;
+        height: 95px;
+    }
+    
+}
+

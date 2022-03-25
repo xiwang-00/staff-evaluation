@@ -1,0 +1,34 @@
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #C4C4C4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right:10px;
+}
+
+.span{
+    color: #C4C4C4;
+}
+
+.current__page {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left:10px;
+}

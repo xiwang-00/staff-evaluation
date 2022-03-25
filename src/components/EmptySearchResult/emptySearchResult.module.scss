@@ -1,0 +1,32 @@
+.empty{
+    max-width: 354px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(50%);
+    // top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.empty__text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .empty__text{
+      font-size: 14px;
+  }
+     
+ }

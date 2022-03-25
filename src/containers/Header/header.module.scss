@@ -1,0 +1,34 @@
+.header {
+    width: 97%;
+    margin: 24px auto 38px;
+    background: #F1F0EE;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__mini {
+    display: none;
+}
+
+@media only screen and (max-width:992px) {
+    .logo {
+        display: none;
+    }
+
+    .logo__mini {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .header {
+        width: 100%;
+        margin: 0 auto 38px;
+    }
+}
